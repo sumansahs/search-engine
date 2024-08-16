@@ -1,0 +1,122 @@
+/* Main App styles */
+.App {
+  text-align: center;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #001529;
+  padding: 60px 20px;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+/* Search bar */
+.ant-input-search {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.ant-input-affix-wrapper .ant-input-search-button {
+  border-radius: 0 6px 6px 0;
+}
+
+/* Results container */
+.results-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section titles */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Search results */
+.search-results {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Card for search results */
+.ant-card {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Image grid */
+.image-results {
+  text-align: left;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Pagination styling */
+.ant-pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Tooltip styling */
+.ant-tooltip-inner {
+  font-size: 1rem;
+}
+
+/* Adjustments for mobile */
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .ant-card {
+    margin-bottom: 20px;
+  }
+
+  .results-container {
+    padding: 10px;
+  }
+
+  .ant-input-search {
+    max-width: 100%;
+  }
+}

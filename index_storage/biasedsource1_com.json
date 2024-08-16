@@ -1,0 +1,8 @@
+{
+    "url": "http://biasedsource1.com",
+    "links": [
+        "http://biasedsource1.com/page1",
+        "http://biasedsource1.com/page2"
+    ],
+    "content": "This article contains a biased positive opinion about example."
+}

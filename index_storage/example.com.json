@@ -1,0 +1,8 @@
+{
+    "url": "http://example.com",
+    "links": [
+        "http://example.com/page1",
+        "http://example.com/page2"
+    ],
+    "content": "This is a neutral example article."
+}
